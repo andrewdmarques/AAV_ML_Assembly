@@ -34,7 +34,7 @@ To use the scripts associated with this project, the following criteria must be 
 AAV-ML-02_MatchPairedEnds.py is a Python 3 script written to process the NGS-gathered sequence data of libraries. Specifically, it ensures that paired end library reads have a matching forward and reverse read. After this script is used, the sequences will then be ready to be merged using any sequence merging software. We recommend using Flash by Magoc and Salzberg, 2011. 
 
 ```
-./AAV-ML-02_MatchPairedEnds.py R1-ForwardReads.fq R2-ReverseReads.fastq
+./AAV-ML-02_MatchPairedEnds.py R1-ForwardReads.fastq R2-ReverseReads.fastq
 ```
 
 ### Extracting capsid library regions
@@ -100,7 +100,7 @@ To choose the default setting where an equal number of positive and negative seq
 
 
 ```
-./AAV-ML-05c_MLprep_SVMPROPERTIES.py curated-seqs.txty
+./AAV-ML-05c_MLprep_SVMPROPERTIES.py curated-seqs.txt
 ```
 
 ### Training the artificial neural network
